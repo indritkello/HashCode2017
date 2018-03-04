@@ -17,7 +17,7 @@ namespace HashCode
 
         static void Main(string[] args)
         {
-            InputData data = new InputData("me_at_the_zoo.txt");
+            InputData data = new InputData("InputFiles/me_at_the_zoo.txt");
             
             foreach (var cache in data.Caches)
             {
